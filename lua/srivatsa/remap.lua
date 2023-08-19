@@ -22,3 +22,6 @@ vim.keymap.set('i', '<A-p>', '<C-o>p');
 vim.keymap.set('i', '<A-Down>', '<C-o>:m +1<CR>')
 vim.keymap.set('i', '<A-Up>', '<C-o>:m -2<CR>')
 
+--Format code using Prettier
+vim.keymap.set('i', '<leader>gp', '<C-o>:Prettier<CR>')
+vim.keymap.set('n', '<leader>gp', vim.cmd.Prettier)
