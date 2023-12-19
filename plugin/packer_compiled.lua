@@ -104,10 +104,20 @@ _G.packer_plugins = {
     path = "/home/srivatsa/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/home/srivatsa/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/srivatsa/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["htmx-lsp"] = {
+    loaded = true,
+    path = "/home/srivatsa/.local/share/nvim/site/pack/packer/start/htmx-lsp",
+    url = "https://github.com/ThePrimeagen/htmx-lsp"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -164,6 +174,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/srivatsa/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "/home/srivatsa/.local/share/nvim/site/pack/packer/start/vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
+  },
+  ["vim-prisma"] = {
+    loaded = true,
+    path = "/home/srivatsa/.local/share/nvim/site/pack/packer/start/vim-prisma",
+    url = "https://github.com/prisma/vim-prisma"
   }
 }
 

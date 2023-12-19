@@ -30,6 +30,7 @@ return require('packer').startup(function(use)
 			{'neovim/nvim-lspconfig'},
 			{'williamboman/mason.nvim'},
 			{'williamboman/mason-lspconfig.nvim'},
+			{"https://github.com/ThePrimeagen/htmx-lsp"},
 
 			-- Autocompletion
 			{'hrsh7th/nvim-cmp'},
@@ -44,7 +45,7 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 			{'prettier/vim-prettier'},
 			{'prisma/vim-prisma'},
-			{'github/copilot.vim'}
+			{'github/copilot.vim'},
 		}
 	}
 
