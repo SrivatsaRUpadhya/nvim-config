@@ -46,6 +46,9 @@ return require('packer').startup(function(use)
 			{'prettier/vim-prettier'},
 			{'prisma/vim-prisma'},
 			{'github/copilot.vim'},
+
+			--Color scheme
+			{"rose-pine/neovim"}
 		}
 	}
 
@@ -53,5 +56,11 @@ return require('packer').startup(function(use)
 	use {
 		"windwp/nvim-autopairs",
 		config = function() require("nvim-autopairs").setup {} end
+	}
+	--Use harpoon
+	use {
+	    "ThePrimeagen/harpoon",
+	    branch = "harpoon2",
+	    requires = { {"nvim-lua/plenary.nvim"} }
 	}
 end)
